@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     const aos_init = () => {
       AOS.init({
-        once: true,
+        once: false,
         duration: 1000,
         easing: 'ease-out-cubic',
       });
